@@ -1,5 +1,5 @@
 # Build Web Apps with Vue JS 2 & Firebase
-Learn Vue JS & Firebase by creating & deploying dynamic web apps (including Authentication).
+[Learn Vue JS & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) by creating & deploying dynamic web apps (including Authentication).
 
 _My working files from the Udemy Course. Each lesson on its own branch_
 
