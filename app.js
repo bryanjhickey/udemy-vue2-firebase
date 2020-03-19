@@ -3,11 +3,19 @@ new Vue({
     data: {
         title: 'Bryan',
         url: 'https://youtube.com',
-        classes: ['one', 'two']
+        classes: ['one', 'two'],
+        coords: {
+            x:0,
+            y:0
+        }
     },
     methods: {
-        greet(time){
-            return `Hello and good ${time}, ${this.title}!`
+        logEvent(e) {
+            console.log(e)
+        },
+        logCoords(e){
+            this.coords.x = e.offsetX
+            this.coords.y = e.offsetY
         }
     }
 })
